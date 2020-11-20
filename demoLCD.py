@@ -20,7 +20,7 @@ class Ui_Dialog(object):
         self.lcdNumber = QtWidgets.QLCDNumber(Dialog)
         self.lcdNumber.setGeometry(QtCore.QRect(70, 70, 901, 261))
         self.lcdNumber.setStyleSheet("color: rgb(255, 0, 0);")
-        self.lcdNumber.setDigitCount(8)
+        self.lcdNumber.setDigitCount(8) # Fix this from 5-8 
         self.lcdNumber.setObjectName("lcdNumber")
 
         self.retranslateUi(Dialog)
